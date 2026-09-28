@@ -2,10 +2,10 @@
 * text=auto
 
 # Local Line Endings
-linux/**   eol=lf
-windows/** eol=crlf
-gcc/**     eol=lf
-cl/**      eol=crlf
+**/linux/**   eol=lf
+**/windows/** eol=crlf
+**/gcc/**     eol=lf
+**/cl/**      eol=crlf
 
 # Build/Binaries
 *.out binary
