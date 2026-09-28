@@ -1,0 +1,32 @@
+# Global Line Endings
+* text=auto
+
+# Local Line Endings
+linux/**   eol=lf
+windows/** eol=crlf
+
+# Build/Binaries
+*.out binary
+*.bin binary
+*.elf binary
+*.exe binary
+*.dll binary
+*.pdb binary
+*.so  binary
+*.a   binary
+
+# Archives/Zips
+*.zip    binary
+*.tar    binary
+*.tar.gz binary
+*.7z     binary
+
+# Images/Docs
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.docx binary

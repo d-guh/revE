@@ -1,0 +1,67 @@
+########################
+# OS / Filesystem
+########################
+# Linux
+*~
+~*
+.nfs*
+*.swp
+.fuse_hidden*
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+__MACOSX
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.msi
+*.lnk
+
+########################
+# Editors / IDEs
+########################
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+########################
+# Temp / Cache
+########################
+# Temp files
+tmp
+temp
+.tmp
+.temp
+tmp.*
+temp.*
+.tmp.*
+.temp.*
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+########################
+# Environment / Secrets
+########################
+.env
+.env.*
+*.env
+!.env.example
+
+########################
+# Custom
+########################
+# Project/language specific ignores here as needed
